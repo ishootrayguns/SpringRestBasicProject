@@ -1,6 +1,9 @@
 package com.spring.model;
 
 
+//class Employee {
+//  empId, empName, department, city
+
 public class Product {
 	private int productNo;
 	private String productName;
@@ -50,11 +53,4 @@ public class Product {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-
-	@Override
-	public String toString() {
-		return "Product [productNo=" + productNo + ", productName=" + productName + ", category=" + category
-				+ ", price=" + price + "]";
-	}
-	
 }
